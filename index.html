@@ -3,43 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <form>
+      <h2>CONNECT WITH US</h2>
       <div class="name_lastname">
-        <div>
-          <label for="name">First name </label>
-          <input type="text" id="name" placeholder="john" />
+        <div class="name">
+          <label for="name">First name*</label>
+          <input type="text" id="name" />
         </div>
-        <div>
+        <div class="last_name">
           <label for="last_name">Last name*</label>
-          <input type="text" id="last_name" placeholder="doe" />
+          <input type="text" id="last_name" />
         </div>
       </div>
-      <div>
-        <!-- <label for="email">Email</label> -->
-        <input type="email" id="email" placeholder="john.doe@example.com" />
-      </div>
-      <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" />
+      <div class="email">
+        <label for="email">Email*</label>
+        <input type="email" id="email" />
       </div>
 
-      <div>
-        <label for="phone">tel number</label>
-        <input type="tel" id="phone" />
+      <div class="phone">
+        <label for="tel">Phone</label>
+        <input type="tel" id="tel" />
       </div>
 
-      <div>
-        <label for="number">number</label>
-        <input type="number" id="number" min="0" max="10" />
+      <div class="message">
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
       </div>
-      <div>
-        <label for="text">text</label>
-        <textarea id="text"></textarea>
-      </div>
-      <button type="submit">submit</button>
     </form>
   </body>
 </html>
